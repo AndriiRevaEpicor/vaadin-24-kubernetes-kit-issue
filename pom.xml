@@ -13,6 +13,7 @@
     <properties>
         <java.version>17</java.version>
         <vaadin.version>24.6.1</vaadin.version>
+        <kubernetes.kit.version>2.4.1</kubernetes.kit.version>
     </properties>
 
     <parent>
@@ -47,6 +48,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>kubernetes-kit-starter</artifactId>
+            <version>${kubernetes.kit.version}</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
